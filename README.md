@@ -5,6 +5,10 @@
 ## http://gmssl.org/docs/quickstart.html
 sudo apt-get -y install cmake
 ```code
+pip install -q gmssl-python
+pip show gmssl-python
+
+
 import unittest
 from gmssl import *
 
